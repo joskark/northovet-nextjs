@@ -1,8 +1,16 @@
 import TextImage from "@/components/TextImage";
+import ProfileCard from "@/components/ProfileCard";
 
 export default function About() {
   return (
     <>
+      <ProfileCard
+        title="Γνωρίστε τον κτηνίατρο σας"
+        name="Dr. Καρκάνης Αθανάσιος"
+        specialization="DVM, MSc, MRCVS"
+        imageUrl="/thanasis.jpg"
+        altText="The doctor"
+      />
       <TextImage
         title="Εκπαίδευση"
         text={[
