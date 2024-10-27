@@ -14,7 +14,7 @@ export default function Home() {
           "Εδώ μπορείτε να μας εμπιστευτείτε!",
         ]}
         imageUrl="/male-veterinarian-examining-cat-ear-infection-with-otoscope-vet-clinic-1.jpg"
-        altText="Description of the image"
+        altText="Male veterinarian examining cat ear infection with otoscope vet clinic"
       />
       <TextImage
         title="Υγιή & Χαρούμενα κατοικίδια με τη φροντίδα μας"
@@ -22,7 +22,7 @@ export default function Home() {
           "Στόχος μας είναι η φροντίδα που προσφέρουμε να υπερβαίνει τις προσδοκίες. Μάθετε περισσότερα για την ποιότητα της εξειδικευμένης μας φροντίδας αλλά και πληροφορίες διαφόρων παθήσεων που χρήζουν χειρουργικής επέμβαση για την  ευζωία των φίλων μας.",
         ]}
         imageUrl="/top-view-stethoscope-with-paper-bone-paw-print-animal-day.jpg"
-        altText="Description of the image"
+        altText="Top view stethoscope with paper bone paw print animal day"
         reverse={true}
       />
     </>

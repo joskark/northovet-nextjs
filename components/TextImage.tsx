@@ -2,7 +2,7 @@ import Image from "next/image";
 
 type TextImageProps = {
   title: string;
-  text: string[]; // Updated to accept an array of strings
+  text: string[];
   imageUrl: string;
   altText: string;
   reverse?: boolean;
