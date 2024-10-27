@@ -16,8 +16,8 @@ const Card = ({ imageUrl, title, text, altText, readMoreLink }: CardProps) => {
         <Image
           src={imageUrl}
           alt={altText}
-          layout="fill"
-          objectFit="cover"
+          fill={true}
+          style={{ objectFit: "cover" }}
           className="rounded-t-lg"
         />
       </div>
