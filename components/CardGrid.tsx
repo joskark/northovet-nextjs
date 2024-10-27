@@ -5,6 +5,7 @@ interface Card {
   text: string[];
   imageUrl: string;
   altText: string;
+  readMoreLink?: string;
 }
 
 interface CardGridProps {
@@ -21,6 +22,7 @@ const CardGrid = ({ cards }: CardGridProps) => {
           text={card.text}
           imageUrl={card.imageUrl}
           altText={card.altText}
+          readMoreLink={card.readMoreLink}
         />
       ))}
     </div>

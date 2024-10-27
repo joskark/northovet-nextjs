@@ -9,6 +9,7 @@ export default function Services() {
       ],
       imageUrl: "/services/human-hand-holding-dog-paw.jpg",
       altText: "Human hand holding dog paw",
+      readMoreLink: "/",
     },
     {
       title: "Κατάγματα Άκρων - Ενδοαρθρικά κατάγματα",
@@ -17,6 +18,7 @@ export default function Services() {
       ],
       imageUrl: "/services/veterinarian-checking-dog-paw.jpg",
       altText: "Veterinarian checking dog paw",
+      readMoreLink: "/",
     },
     {
       title: "Εξάρθρημα Επιγονατίδας",
@@ -25,6 +27,7 @@ export default function Services() {
       ],
       imageUrl: "/services/veterinarians-make-x-ray-sick-cat-table.jpg",
       altText: "Veterinarians make x-ray sick cat table",
+      readMoreLink: "/",
     },
     {
       title: "Χονδροπάθειες – Οστεοχόνδρωση",
