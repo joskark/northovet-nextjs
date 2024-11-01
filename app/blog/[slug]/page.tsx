@@ -3,13 +3,29 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
-import { PageProps } from "@/.next/types/app/page";
 
-export default async function Post({ params }: PageProps) {
+type Params = Promise<{ slug: string }>;
+
+// Define the path to the posts directory
+const postsDirectory = path.join(process.cwd(), "content/posts");
+
+// Function to generate static params for dynamic routes
+export function generateStaticParams() {
+  // Read all Markdown files in the posts directory
+  const fileNames = fs.readdirSync(postsDirectory);
+
+  // Map each file name to a parameter object containing the slug
+  return fileNames.map((fileName) => {
+    const slug = fileName.replace(/\.md$/, ""); // Remove the .md extension to get the slug
+    return { slug }; // Return an object with the slug property
+  });
+}
+
+export default async function Post({ params }: { params: Params }) {
   const { slug } = await params;
 
   // Path to the Markdown file
-  const postFilePath = path.join(process.cwd(), "content/posts", `${slug}.md`);
+  const postFilePath = path.join(postsDirectory, `${slug}.md`);
 
   // Check if the file exists
   if (!fs.existsSync(postFilePath)) {

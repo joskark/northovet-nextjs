@@ -21,11 +21,22 @@ function getPosts() {
 
     return { slug, title, date };
   });
+
+  // Sort posts by date in descending order
   return posts.sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
 }
 
+// Function to generate static params for dynamic routes
+export function generateStaticParams() {
+  const posts = getPosts();
+  return posts.map((post) => ({
+    slug: post.slug,
+  }));
+}
+
+// Main component for listing posts
 export default function PostsList() {
   const posts = getPosts();
 
