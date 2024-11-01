@@ -13,7 +13,7 @@ export default function Home() {
           "Με μεγάλη εμπειρία σε Ελλάδα και εξωτερικό, με εξειδίκευση σε προηγμένες τεχνικές, ο γιατρός παρέχει υπηρεσίες υψηλής ποιότητας, βάζοντας την υγεία του κατοικίδιου σας σε πρώτη και απόλυτη προτεραιότητα.",
           "Εδώ μπορείτε να μας εμπιστευτείτε!",
         ]}
-        imageUrl="/male-veterinarian-examining-cat-ear-infection-with-otoscope-vet-clinic-1.jpg"
+        imageUrl="https://thanasis-website.s3.eu-west-1.amazonaws.com/images/male-veterinarian-examining-cat-ear-infection-with-otoscope-vet-clinic-1.jpg"
         altText="Male veterinarian examining cat ear infection with otoscope vet clinic"
       />
       <TextImage
@@ -21,7 +21,7 @@ export default function Home() {
         text={[
           "Στόχος μας είναι η φροντίδα που προσφέρουμε να υπερβαίνει τις προσδοκίες. Μάθετε περισσότερα για την ποιότητα της εξειδικευμένης μας φροντίδας αλλά και πληροφορίες διαφόρων παθήσεων που χρήζουν χειρουργικής επέμβαση για την  ευζωία των φίλων μας.",
         ]}
-        imageUrl="/top-view-stethoscope-with-paper-bone-paw-print-animal-day.jpg"
+        imageUrl="https://thanasis-website.s3.eu-west-1.amazonaws.com/images/top-view-stethoscope-with-paper-bone-paw-print-animal-day.jpg"
         altText="Top view stethoscope with paper bone paw print animal day"
         reverse={true}
       />
