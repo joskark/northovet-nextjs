@@ -1,16 +1,34 @@
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
 import Link from "next/link";
 
-const posts = [
-  {
-    slug: "post-1",
-    title: "Ρήξη Πρόσθιου Χιαστού Συνδέσμου (TPLO, CCWO, LSS)",
-  },
-  { slug: "post-2", title: "Κατάγματα Άκρων - Ενδοαρθρικά κατάγματα" },
-  { slug: "post-3", title: "Εξαρθρήματα Aρθρώσεων" },
-  { slug: "post-4", title: "Εξάρθρημα Επιγονατίδας" },
-];
+// Define the path to the posts directory
+const postsDirectory = path.join(process.cwd(), "content/posts");
+
+// Fetch all posts by reading the Markdown files
+function getPosts() {
+  const fileNames = fs.readdirSync(postsDirectory);
+
+  const posts = fileNames.map((fileName) => {
+    const slug = fileName.replace(/\.md$/, ""); // Remove the .md extension to get the slug
+    const filePath = path.join(postsDirectory, fileName);
+    const fileContents = fs.readFileSync(filePath, "utf-8");
+
+    const { data } = matter(fileContents); // Parse the front matter
+    const title = data.title;
+    const date = data.date;
+
+    return { slug, title, date };
+  });
+  return posts.sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
+}
 
 export default function PostsList() {
+  const posts = getPosts();
+
   return (
     <div className="max-w-lg mx-auto mt-10 p-6 bg-white shadow-md rounded-lg">
       <h1 className="text-3xl font-semibold text-gray-800 text-center mb-6">
