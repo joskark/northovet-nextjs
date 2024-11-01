@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
+import { usePathname } from "next/navigation"; // Import usePathname
 
 const Links = [
   { href: "/", text: "Αρχική" },
@@ -15,6 +16,7 @@ const Links = [
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false); // To toggle the mobile menu
+  const pathname = usePathname(); // Get the current route
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -42,7 +44,11 @@ export default function Navbar() {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="text-gray-100 capitalize hover:text-teal-200"
+                  className={`capitalize ${
+                    pathname === link.href
+                      ? "text-teal-200 font-semibold" // Active link style
+                      : "text-gray-100 hover:text-teal-200" // Non-active link style
+                  }`}
                 >
                   {link.text}
                 </Link>
@@ -72,7 +78,11 @@ export default function Navbar() {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="text-gray-100 capitalize hover:text-teal-200"
+                  className={`capitalize ${
+                    pathname === link.href
+                      ? "text-teal-200 font-semibold" // Active link style
+                      : "text-gray-100 hover:text-teal-200" // Non-active link style
+                  }`}
                   onClick={toggleMenu}
                 >
                   {link.text}
