@@ -3,8 +3,9 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
+import { PageProps } from "@/.next/types/app/page";
 
-export default async function Post({ params }: { params: { slug: string } }) {
+export default async function Post({ params }: PageProps) {
   const { slug } = await params;
 
   // Path to the Markdown file
