@@ -23,7 +23,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-teal-800 py-4 sticky top-0 z-50 shadow-lg">
+    <nav className="bg-background py-4 sticky top-0 z-50 shadow-lg">
       <div className="max-w-6xl mx-auto relative flex items-center justify-between px-4 md:px-6">
         {/* Logo on the left */}
         <div className="text-gray-100 text-lg font-bold">
@@ -73,7 +73,7 @@ export default function Navbar() {
 
         {/* Mobile menu dropdown, visible on small screens */}
         {isOpen && (
-          <ul className="md:hidden absolute top-full left-0 w-full bg-teal-800 flex flex-col items-center space-y-4 py-4 px-4">
+          <ul className="md:hidden absolute top-full left-0 w-full bg-background flex flex-col items-center space-y-4 py-4 px-4">
             {Links.map((link) => (
               <li key={link.href}>
                 <Link

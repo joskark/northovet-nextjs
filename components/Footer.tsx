@@ -8,7 +8,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-teal-800 text-white py-6">
+    <footer className="bg-background text-white py-6">
       <div className="max-w-6xl mx-auto flex flex-col items-center justify-center">
         {/* Copyright Information */}
         <div className="text-center mb-4">

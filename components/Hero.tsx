@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="relative bg-teal-900 text-white">
+    <section className="relative bg-background text-white">
       {/* Background image */}
       <div className="absolute inset-0 opacity-70">
         <Image
