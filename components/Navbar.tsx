@@ -46,8 +46,8 @@ export default function Navbar() {
                   href={link.href}
                   className={`capitalize ${
                     pathname === link.href
-                      ? "text-teal-200 font-semibold" // Active link style
-                      : "text-gray-100 hover:text-teal-200" // Non-active link style
+                      ? "text-amber-300 font-semibold" // Active link style
+                      : "text-gray-100 hover:text-amber-300" // Non-active link style
                   }`}
                 >
                   {link.text}
@@ -80,8 +80,8 @@ export default function Navbar() {
                   href={link.href}
                   className={`capitalize ${
                     pathname === link.href
-                      ? "text-teal-200 font-semibold" // Active link style
-                      : "text-gray-100 hover:text-teal-200" // Non-active link style
+                      ? "text-amber-300 font-semibold" // Active link style
+                      : "text-gray-100 hover:text-amber-300" // Non-active link style
                   }`}
                   onClick={toggleMenu}
                 >

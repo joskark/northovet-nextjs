@@ -3,16 +3,14 @@ import Image from "next/image";
 type TextImageProps = {
   title: string;
   text: string[];
-  imageUrl: string;
-  altText: string;
+  images: { url: string; alt: string }[];
   reverse?: boolean;
 };
 
 const TextImage = ({
   title,
   text,
-  imageUrl,
-  altText,
+  images,
   reverse = false,
 }: TextImageProps) => {
   return (
@@ -40,14 +38,17 @@ const TextImage = ({
       </div>
 
       {/* Image Section */}
-      <div className="w-full md:w-1/2 flex justify-center">
-        <Image
-          src={imageUrl}
-          alt={altText}
-          className="max-w-full h-auto rounded-lg shadow-lg"
-          width={500}
-          height={500}
-        />
+      <div className="w-full md:w-1/2 flex flex-wrap justify-center gap-4">
+        {images.map((image, index) => (
+          <Image
+            key={index}
+            src={image.url}
+            alt={image.alt}
+            className="max-w-full h-auto rounded-lg shadow-lg"
+            width={500}
+            height={500}
+          />
+        ))}
       </div>
     </div>
   );
