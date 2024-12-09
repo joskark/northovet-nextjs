@@ -8,7 +8,7 @@ export default function Services() {
         "Η ρήξη πρόσθιου χιαστού συνδέσμου είναι ένας συνηθισμένος τραυματισμός που επηρεάζει τα ζώα συντροφιάς και κυρίως τους σκύλους. Είναι μία επώδυνη κατάσταση που προκαλεί χωλότητα στο ζώο. Υπάρχουν δυο χιαστοί σύνδεσμοι μέσα στο γόνατο: ο πρόσθιος και ο οπίσθιος. Ονομάζονται έτσι γιατί χιάζονται μεταξύ τους...",
       ],
       imageUrl:
-        "https://thanasis-website.s3.eu-west-1.amazonaws.com/images/services/human-hand-holding-dog-paw.jpg",
+        "https://northovet-assets.s3.eu-west-1.amazonaws.com/services/human-hand-holding-dog-paw.jpg",
       altText: "Human hand holding dog paw",
       readMoreLink: "/blog/riksi-prosthiou-hiastou-sindesmou",
     },
@@ -18,7 +18,7 @@ export default function Services() {
         "Τα κατάγματα άκρων αποτελούν συχνή πάθηση στα ζώα συντροφιάς. Αυτά μπορεί να προκληθούν από κάποια μορφή τραυματισμού όπως η πτώση από ύψος ή το τροχαίο. Η αντιμετώπιση πρέπει να είναι άμεση είτε αυτή είναι συντηρητική είτε  χειρουργική με σκοπό να αποκατασταθεί η φυσιολογική λειτουργία του άκρου...",
       ],
       imageUrl:
-        "https://thanasis-website.s3.eu-west-1.amazonaws.com/images/services/veterinarian-checking-dog-paw.jpg",
+        "https://northovet-assets.s3.eu-west-1.amazonaws.com/services/veterinarian-checking-dog-paw.jpg",
       altText: "Veterinarian checking dog paw",
       readMoreLink: "/blog/katagmata-akrwn-endoathrika-katagmata",
     },
@@ -28,7 +28,7 @@ export default function Services() {
         "Το εξάρθρημα επιγονατίδας είναι μια συνηθισμένη ορθοπεδική πάθηση και συμβαίνει όταν η επιγονατίδα απομακρύνεται από την φυσιολογική της θέση. Στις περισσότερες περιπτώσεις, ένα ζώο θα βγάλει ξαφνικά μια κραυγή πόνου και θα σηκώσει το πόδι του από το έδαφος για σύντομο χρονικό διάστημα, ακολουθούμενο από επιστροφή στη σχετικά κανονική χρήση των άκρων καθώς η επιγονατίδα επιστρέφει στην κανονική της θέση. Αυτά τα επεισόδια ξαφνικής χωλότητας συχνά αυξάνονται σε συχνότητα με την πάροδο του χρόνου και η επιγονατίδα μπορεί να παραμείνει εξαρθρωμένη καθώς η κατάσταση τείνει να γίνει πιο προχωρημένη...",
       ],
       imageUrl:
-        "https://thanasis-website.s3.eu-west-1.amazonaws.com/images/services/veterinarians-make-x-ray-sick-cat-table.jpg",
+        "https://northovet-assets.s3.eu-west-1.amazonaws.com/services/veterinarians-make-x-ray-sick-cat-table.jpg",
       altText: "Veterinarians make x-ray sick cat table",
       readMoreLink: "/blog/eksarthrima-epigonatidas",
     },
@@ -38,7 +38,7 @@ export default function Services() {
         "Αναφέρονται σε διαταραχές στην ανάπτυξη και τη σύσταση του χόνδρου και του οστού.",
       ],
       imageUrl:
-        "https://thanasis-website.s3.eu-west-1.amazonaws.com/images/services/close-up-doctor-checking-cat.jpg",
+        "https://northovet-assets.s3.eu-west-1.amazonaws.com/services/close-up-doctor-checking-cat.jpg",
       altText: "Close up doctor checking cat",
     },
     {
@@ -48,7 +48,7 @@ export default function Services() {
         "Οι “Τενοντοπάθειες” αναφέρονται σε διαταραχές και βλάβες στους τένοντες.",
       ],
       imageUrl:
-        "https://thanasis-website.s3.eu-west-1.amazonaws.com/images/services/close-up-hands-touching-dog.jpg",
+        "https://northovet-assets.s3.eu-west-1.amazonaws.com/services/close-up-hands-touching-dog.jpg",
       altText: "Close up hands touching dog",
     },
     {
@@ -57,7 +57,7 @@ export default function Services() {
         "Είναι η απώλεια της συνοχής ενός συνδέσμου μεταξύ των οστών. Η ρήξη συνδέσμων αναφέρεται στη φυσική διάλυση ή τμηματοποίηση των συνδέσμων που συνδέουν τα οστά στις αρθρώσεις των ζώων.",
       ],
       imageUrl:
-        "https://thanasis-website.s3.eu-west-1.amazonaws.com/images/services/doctor-paw-shake.jpg",
+        "https://northovet-assets.s3.eu-west-1.amazonaws.com/services/doctor-paw-shake.jpg",
       altText: "Doctor paw shake",
     },
     {
@@ -66,7 +66,7 @@ export default function Services() {
         "Είναι μια πάθηση που επηρεάζει την αναπνοή και τη γενική υγεία σε κυρίως κοντόμουτρα ράτσες σκύλων.",
       ],
       imageUrl:
-        "https://thanasis-website.s3.eu-west-1.amazonaws.com/images/services/veterinarian-taking-care-dog-ear.jpg",
+        "https://northovet-assets.s3.eu-west-1.amazonaws.com/services/veterinarian-taking-care-dog-ear.jpg",
       altText: "Veterinarian taking care dog ear",
     },
   ];

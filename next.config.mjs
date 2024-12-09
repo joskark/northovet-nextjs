@@ -6,9 +6,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "thanasis-website.s3.eu-west-1.amazonaws.com",
-        port: "",
-        pathname: "/images/**",
+        hostname: "northovet-assets.s3.eu-west-1.amazonaws.com",
       },
     ],
   },

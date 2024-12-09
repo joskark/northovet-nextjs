@@ -8,7 +8,7 @@ export default function About() {
         title="Γνωρίστε τον κτηνίατρο σας"
         name="Dr. Καρκάνης Αθανάσιος"
         specialization="DVM, MSc, MRCVS"
-        imageUrl="https://thanasis-website.s3.eu-west-1.amazonaws.com/images/thanasis.jpg"
+        imageUrl="https://northovet-assets.s3.eu-west-1.amazonaws.com/thanasis.jpg"
         altText="The doctor"
       />
       <TextImage
@@ -18,7 +18,7 @@ export default function About() {
           "Το 2022 απέκτησε τον μεταπτυχιακό τίτλο (MSc) της Ιατρικής Σχολής του Δημοκρίτειου Πανεπιστημίου Θράκης με θέμα “Κλινική Φαρμακολογία” με σκοπό να διευρύνει τις γνώσεις του στην σωστή και ορθολογική χρήση αντιβιοτικών φαρμάκων, η οποία έχει ως αποτέλεσμα την αυξανόμενη αντίσταση των μικροβίων σε αυτά, γεγονός που αποτελεί απειλή για τη δημόσια υγεία καθώς μπορεί να μετατρέψει μια απλή λοίμωξη σε κατάσταση απειλητική για την ζωή του ζώου αλλά και του ανθρώπου.",
           "Έχει παρακολουθήσει πληθώρα διεθνών σεμιναρίων και συνεδρίων. Είναι ενεργό μέλος Ευρωπαϊκών και Αμερικάνικων Οργανισμών Κτηνιατρικής Ορθοπεδικής έχοντας στο δυναμικό του ομιλίες και παρουσιάσεις σε συνέδρια, ακαδημαϊκά βραβεία και δημοσιεύσεις σε ελληνικά και αγγλόφωνα περιοδικά.",
         ]}
-        imageUrl="https://thanasis-website.s3.eu-west-1.amazonaws.com/images/graduation-high-school-university-concept-space-text-1.jpg"
+        imageUrl="https://northovet-assets.s3.eu-west-1.amazonaws.com/graduation-high-school-university-concept-space-text-1.jpg"
         altText="Graduation image"
         reverse={true}
       />
@@ -33,7 +33,7 @@ export default function About() {
           "Από το 2018 επέστρεψε και δουλεύει στην Ελλάδα ενημερώνοντας συνέχεια τις τεχνικές του με Ευρωπαϊκές και Αμερικάνικες μετεκπαιδεύσεις πάνω στην Χειρουργική και Ορθοπεδική Ζώων Συντροφιάς.",
           "Η αποκλειστική χρήση σύγχρονων εξειδικευμένων υλικών οστεοσύνθεσης από τιτάνιο με την τεχνική Monoaxial ή Polyaxial Locking είναι πλέον επιτακτική ανάγκη για την θεραπεία ορθοπεδικών παθήσεων ώστε να παρέχουμε την μέγιστη αποκατάσταση σε όλους τους τετράποδους φίλους χωρίς καμία εξαίρεση.",
         ]}
-        imageUrl="https://thanasis-website.s3.eu-west-1.amazonaws.com/images/top-view-stethoscope-with-paper-bone-paw-print-animal-day.jpg"
+        imageUrl="https://northovet-assets.s3.eu-west-1.amazonaws.com/top-view-stethoscope-with-paper-bone-paw-print-animal-day.jpg"
         altText="Description of the image"
         reverse={false}
       />

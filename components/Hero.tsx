@@ -6,7 +6,7 @@ const Hero = () => {
       {/* Background image */}
       <div className="absolute inset-0 opacity-70">
         <Image
-          src="https://thanasis-website.s3.eu-west-1.amazonaws.com/images/puppies-on-grass.jpg"
+          src="https://northovet-assets.s3.eu-west-1.amazonaws.com/puppies-on-grass.jpg"
           alt="Puppies on the grass"
           fill={true}
           style={{ objectFit: "cover" }}
