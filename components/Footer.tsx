@@ -23,28 +23,28 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaFacebookF className="w-6 h-6 hover:text-teal-200" />
+            <FaFacebookF className="w-6 h-6 hover:text-amber-300" />
           </a>
           <a
             href="https://www.twitter.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTwitter className="w-6 h-6 hover:text-teal-200" />
+            <FaTwitter className="w-6 h-6 hover:text-amber-300" />
           </a>
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/northovet__"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram className="w-6 h-6 hover:text-teal-200" />
+            <FaInstagram className="w-6 h-6 hover:text-amber-300" />
           </a>
           <a
             href="https://www.linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedinIn className="w-6 h-6 hover:text-teal-200" />
+            <FaLinkedinIn className="w-6 h-6 hover:text-amber-300" />
           </a>
         </div>
       </div>

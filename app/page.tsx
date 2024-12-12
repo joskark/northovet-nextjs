@@ -15,7 +15,7 @@ export default function Home() {
         ]}
         images={[
           {
-            url: "https://northovet-assets.s3.eu-west-1.amazonaws.com/male-veterinarian-examining-cat-ear-infection-with-otoscope-vet-clinic-1.jpg",
+            url: "https://northovet-assets.s3.eu-west-1.amazonaws.com/Λουκας-Αθηνα-εμποδιο-1-scaled.jpg",
             alt: "Male veterinarian examining cat ear infection with otoscope vet clinic",
           },
         ]}
@@ -27,7 +27,7 @@ export default function Home() {
         ]}
         images={[
           {
-            url: "https://northovet-assets.s3.eu-west-1.amazonaws.com/top-view-stethoscope-with-paper-bone-paw-print-animal-day.jpg",
+            url: "https://northovet-assets.s3.eu-west-1.amazonaws.com/Λουκας-Αθηνα-1-1.jpg",
             alt: "Top view stethoscope with paper bone paw print animal day",
           },
         ]}
