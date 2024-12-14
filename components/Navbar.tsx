@@ -29,7 +29,7 @@ export default function Navbar() {
         <div className="text-gray-100 text-lg font-bold">
           <Link href="/">
             <Image
-              src="/logo.svg" // Path to your SVG in the public folder
+              src="https://northovet-assets.s3.eu-west-1.amazonaws.com/logo.svg" // Path to your SVG in the public folder
               alt="Logo"
               width={50} // Adjust the width as needed
               height={50} // Adjust the height as needed

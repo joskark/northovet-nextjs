@@ -8,6 +8,7 @@ const nextConfig = {
   */
   trailingSlash: true,
   output: "export",
+  basePath: "/northovet-nextjs",
   images: {
     unoptimized: true, // S3 doesn’t have server-side processing capabilities. This one disables next/Image processing which needs server-side capabilities
     remotePatterns: [
