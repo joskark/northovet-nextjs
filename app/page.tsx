@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import ReviewList from "@/components/ReviewList";
 import TextImage from "@/components/TextImage";
 
 export default function Home() {
@@ -33,6 +34,7 @@ export default function Home() {
         ]}
         reverse={true}
       />
+      <ReviewList />
     </>
   );
 }
